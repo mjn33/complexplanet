@@ -1,0 +1,14 @@
+[package]
+name = "complexplanet"
+version = "0.1.0"
+authors = ["Matthew Nicholls <matthew.nicholls95@hotmail.co.uk>"]
+
+[dependencies]
+clap = "~2.22.2"
+
+[dependencies.rust-libnoise]
+git = "https://github.com/mjn33/rust-libnoise"
+
+[dependencies.image]
+version = "0.12.3"
+features = ["png_codec"]
